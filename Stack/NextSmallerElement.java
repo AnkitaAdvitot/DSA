@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Stack;
 
 public class NextSmallerElement {
-    static List<Integer> nextSmaller(int[] arr){
+    static  List<Integer> nextSmaller(int[] arr){
         Stack<Integer> st=new Stack<>();
         ArrayList<Integer> ans=new ArrayList<>();
         st.push(-1);

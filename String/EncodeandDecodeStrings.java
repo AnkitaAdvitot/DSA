@@ -1,6 +1,10 @@
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class EncodeandDecodeStrings {
     
-    public String encode(List<String> strs) {
+    public static String encode(List<String> strs) {
         StringBuilder res = new StringBuilder();
         for (String s : strs) {
             res.append(s.length()).append('#').append(s);
@@ -8,7 +12,7 @@ public class EncodeandDecodeStrings {
         return res.toString();
     }
 
-    public List<String> decode(String str) {
+    public static List<String> decode(String str) {
         List<String> res = new ArrayList<>();
         int i = 0;
         while (i < str.length()) {
@@ -23,5 +27,9 @@ public class EncodeandDecodeStrings {
             i = j;
         }
         return res;
+    }
+    public static void main(String[] args) {
+        
+        
     }
 }
