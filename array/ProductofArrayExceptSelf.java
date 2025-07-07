@@ -1,4 +1,4 @@
-package array.programs;
+
 public class ProductofArrayExceptSelf {
     public int[] productExceptSelf(int[] nums) {
         int n=nums.length;
