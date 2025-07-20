@@ -29,7 +29,7 @@ class Traversal{
             for(int j=0;j<col;j++){
                 if(i==j)
                     System.out.print(mat[i][j]+" ");
-                else if(row-i-1==j)
+                else if(row-i-1==j) 
                     System.out.print(mat[i][j]+" ");
                 else
                     System.out.print(" ");
