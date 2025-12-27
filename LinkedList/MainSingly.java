@@ -4,7 +4,7 @@ import java.util.NoSuchElementException;
  class CustomSinglyList<T> {
     private Node<T> head;
     private int size=0;
-
+    
     public void add(T data){
         Node<T> newNode=new Node<>(data);
         if(head==null){
